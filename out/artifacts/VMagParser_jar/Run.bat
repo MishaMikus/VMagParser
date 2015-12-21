@@ -1,0 +1,1 @@
+@start "POParser" java -jar VMagParser.jar

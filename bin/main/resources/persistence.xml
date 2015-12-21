@@ -1,0 +1,15 @@
+<hibernate-configuration>
+    <session-factory>
+        <property name="connection.driver_class">com.microsoft.sqlserver.jdbc.SQLServerDriver</property>
+        <property name="connection.url">jdbc:sqlserver://localhost:3306;database=vmag</property>
+        <property name="connection.username">root</property>
+        <property name="connection.password">root</property>
+        <property name="connection.pool_size">1</property>
+        <property name="dialect">org.hibernate.dialect.SQLServer2005Dialect</property>
+        <property name="show_sql">true</property>
+        <property name="hbm2ddl.auto">create</property>
+
+        <mapping class="vmag.model.User"></mapping>
+
+    </session-factory>
+</hibernate-configuration>

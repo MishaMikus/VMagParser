@@ -1,0 +1,30 @@
+
+===== START  ===== Fri Dec 11 13:39:27 EET 2015 =====
+initActualDate()=11.12.2015
+currentDataDir()=out\data\11.12.2015\
+
+Start load
+try load from 'out\data\11.12.2015\catalog'
+load from 'out\data\11.12.2015\catalog'
+
+Start update
+Work time     = 0 s
+RubCount      = 111
+KvartyryCount = 7515
+End update
+
+Start save
+try save to 'out\data\11.12.2015\catalog'
+save to 'out\data\11.12.2015\catalog' success
+try save to 'out\data\11.12.2015\catalog(Tel List)11.12.2015.txt'
+save to 'out\data\11.12.2015\catalog(Tel List)11.12.2015.txt'
+try save to 'out\data\11.12.2015\catalog11.12.2015.xlsx'
+save to 'out\data\11.12.2015\catalog11.12.2015.xlsx' success
+
+Start filter
+End filter
+try save to 'out\data\11.12.2015\catalog11.12.2015_filtered.xlsx'
+save to 'out\data\11.12.2015\catalog11.12.2015_filtered.xlsx' success
+End save
+
+===== FINISH ===== Fri Dec 11 13:39:49 EET 2015 =====
