@@ -27,5 +27,4 @@ public class Log {
         fullLog = "\n" + header + "\n" + fullLog + "\n" + footer;
         Files.write(Paths.get(pathToFile), fullLog.getBytes(), new File(pathToFile).exists() ? StandardOpenOption.APPEND : StandardOpenOption.CREATE);
     }
-
 }
